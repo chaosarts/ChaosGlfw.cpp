@@ -15,7 +15,7 @@ namespace ca
 	namespace glfw
 	{
 
-		class Exception: public ca::core::Exception
+		class Exception: public chaos::Exception
 		{
 		public:
 			Exception(const char* message, int code, Exception* parent);

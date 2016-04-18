@@ -11,7 +11,7 @@
 #include <GLFW/glfw3.h>
 #include <map>
 #include <list>
-#include <ChaosCore/core.h>
+#include <ChaosCore/ChaosCore.hpp>
 #include <ChaosGL/ScreenRenderer.h>
 #include "Exception.h"
 

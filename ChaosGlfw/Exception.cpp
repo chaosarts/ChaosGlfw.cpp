@@ -11,16 +11,16 @@ namespace ca
 {
 	namespace glfw
 	{
-		Exception::Exception(const char* message, int code, Exception* parent) : ca::core::Exception(message, code, parent)
+		Exception::Exception(const char* message, int code, Exception* parent) : chaos::Exception(message, code, parent)
 		{
 		}
 
 
-		Exception::Exception(const char* message, int code) : ca::core::Exception(message, code)
+		Exception::Exception(const char* message, int code) : chaos::Exception(message, code)
 		{
 		}
 
-		Exception::Exception(const char* message) : ca::core::Exception(message)
+		Exception::Exception(const char* message) : chaos::Exception(message)
 		{
 		}
 

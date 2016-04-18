@@ -81,7 +81,7 @@ namespace ca
 		{
 			if (_window == nullptr)
 			{
-				ca::core::info("Unable to update window: window has not been opened.");
+				chaos::info("Unable to update window: window has not been opened.");
 				return;
 			}
 
